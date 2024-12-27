@@ -1,7 +1,7 @@
 
 ---
 
-## 🐍 **Python remove() Method**
+# 🐍 **Python remove() Method**
 
 The `remove()` method in Python removes the first occurrence of a specified element from a list. It modifies the original list and returns `None`. 🔨
 
