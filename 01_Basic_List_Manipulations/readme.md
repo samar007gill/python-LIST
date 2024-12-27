@@ -1,14 +1,15 @@
 
----
-
-### 📚 **Python Lists Guide**
 
 ---
 
-### 📜 **Table of Contents**
-- [🔍 **What is a List?**](#what-is-a-list)
-- [⚡ **Important Points**](#important-points)
-- [🛠️ **Common List Functions**](#common-list-functions)
+### 📚 **__Python Lists Guide__**
+
+---
+
+### 📜 **__Table of Contents__**
+- [🔍 **__What is a List?__**](#what-is-a-list)
+- [⚡ **__Important Points__**](#important-points)
+- [🛠️ **__Common List Functions__**](#common-list-functions)
     - 📌 `append()`
     - 📌 `clear()`
     - 📌 `copy()`
@@ -20,21 +21,21 @@
     - 📌 `remove()`
     - 📌 `reverse()`
     - 📌 `sort()`
-- [🔄 **List Equality**](#list-equality)
-- [📊 **Indexing & Slicing**](#indexing-slicing)
-- [➕ **Modifying & Combining Lists**](#modifying-combining-lists)
-- [🧩 **Nested Lists**](#nested-lists)
-- [✏️ **Changing List Items**](#changing-list-items)
-- [➕ **List Operations**](#list-operations)
-- [🔄 **Iterating Over Lists**](#iterating-over-lists)
-- [➕ **Adding Items**](#adding-items)
-- [❌ **Removing Items**](#removing-items)
-- [⚙️ **Changing and Deleting Items**](#changing-deleting-items)
-- [🔀 **Sorting Lists**](#sorting-lists)
+- [🔄 **__List Equality__**](#list-equality)
+- [📊 **__Indexing & Slicing__**](#indexing-slicing)
+- [➕ **__Modifying & Combining Lists__**](#modifying-combining-lists)
+- [🧩 **__Nested Lists__**](#nested-lists)
+- [✏️ **__Changing List Items__**](#changing-list-items)
+- [➕ **__List Operations__**](#list-operations)
+- [🔄 **__Iterating Over Lists__**](#iterating-over-lists)
+- [➕ **__Adding Items__**](#adding-items)
+- [❌ **__Removing Items__**](#removing-items)
+- [⚙️ **__Changing and Deleting Items__**](#changing-deleting-items)
+- [🔀 **__Sorting Lists__**](#sorting-lists)
 
 ---
 
-### 🔍 **What is a List?**
+### 🔍 **__What is a List?__**
 A list is an ordered collection of items, capable of holding various data types (numbers, strings, etc.), and it’s **mutable**, meaning its content can be changed.
 
 Example:
@@ -44,14 +45,14 @@ my_list = ["Alice", 25, "Engineer"]
 
 ---
 
-### ⚡ **Important Points**
+### ⚡ **__Important Points__**
 - **Ordered**: The sequence of items is preserved.
 - **Mutable**: You can modify the content.
 - **Flexible**: Different data types can be stored.
 
 ---
 
-### 🛠️ **Common List Functions**
+### 🛠️ **__Common List Functions__**
 
 #### 📌 `append(x)`
 Adds an item `x` at the end of the list.
@@ -131,7 +132,7 @@ lst.sort()  # [1, 2, 3]
 
 ---
 
-### 🔄 **List Equality**
+### 🔄 **__List Equality__**
 To check if two lists are equal, you can use the equality operator (`==`).
 ```python
 lst1 = [1, 2, 3]
@@ -141,7 +142,7 @@ print(lst1 == lst2)  # True
 
 ---
 
-### 📊 **Indexing & Slicing**
+### 📊 **__Indexing & Slicing__**
 Use indexes to access elements. Negative indexes start from the end.
 
 ```python
@@ -153,7 +154,7 @@ print(lst[1:])  # [2, 3]
 
 ---
 
-### ➕ **Modifying & Combining Lists**
+### ➕ **__Modifying & Combining Lists__**
 
 You can combine lists using the `+` operator and modify them using indexes.
 ```python
@@ -167,7 +168,7 @@ print(lst1)  # [100, 2]
 
 ---
 
-### 🧩 **Nested Lists**
+### 🧩 **__Nested Lists__**
 Lists can contain other lists (i.e., nested lists).
 ```python
 nested = [[1, 2], [3, 4]]
@@ -176,7 +177,7 @@ print(nested[0])  # [1, 2]
 
 ---
 
-### ✏️ **Changing List Items**
+### ✏️ **__Changing List Items__**
 You can modify list items directly using indexes.
 ```python
 lst = [10, 20, 30]
@@ -186,7 +187,7 @@ print(lst)  # [10, 25, 30]
 
 ---
 
-### ➕ **List Operations**
+### ➕ **__List Operations__**
 
 #### Multiplying Lists:
 ```python
@@ -203,7 +204,7 @@ lst = lst1 + lst2  # [1, 2, 3, 4]
 
 ---
 
-### 🔄 **Iterating Over Lists**
+### 🔄 **__Iterating Over Lists__**
 Use a `for` loop to iterate through list items.
 ```python
 lst = ["apple", "banana", "cherry"]
@@ -213,7 +214,7 @@ for item in lst:
 
 ---
 
-### ➕ **Adding Items**
+### ➕ **__Adding Items__**
 You can add new items to the list using `append()`.
 ```python
 lst = [1]
@@ -222,7 +223,7 @@ lst.append(2)  # [1, 2]
 
 ---
 
-### ❌ **Removing Items**
+### ❌ **__Removing Items__**
 Use `remove()` to delete an item.
 ```python
 lst = [1, 2, 3]
@@ -231,7 +232,7 @@ lst.remove(2)  # [1, 3]
 
 ---
 
-### ⚙️ **Changing and Deleting Items**
+### ⚙️ **__Changing and Deleting Items__**
 
 To modify or delete items, you can use assignments and the `del` statement.
 ```python
@@ -243,7 +244,7 @@ print(lst)  # [10, 3]
 
 ---
 
-### 🔀 **Sorting Lists**
+### 🔀 **__Sorting Lists__**
 
 Sort lists in ascending or descending order using `sort()`.
 ```python
@@ -252,3 +253,4 @@ lst.sort()  # ["apple", "banana", "cherry"]
 ```
 
 ---
+
