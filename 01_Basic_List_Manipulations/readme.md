@@ -2,7 +2,8 @@
 
 ---
 
-#### **__📚 Python Lists Guide __**
+📚 #### __**Python Lists Guide**__
+
 
 
 
