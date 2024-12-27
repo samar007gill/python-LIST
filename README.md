@@ -1,6 +1,6 @@
-##### Python List Practice Questions 📂
+##### ****Python List Practice Questions**** 📂
 
-### Repository Structure 📋
+### **Repository Structure** 📋
 
 📁 **01_Basic List Operations**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## Key Points ✨
+## **Key Points** ✨
 
 🌿 **Beginner-Friendly:** Covers foundational operations like appending, removing, and sorting lists.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Features 🛠️
+## **Features** 🛠️
 
 📚 **Comprehensive Coverage:**
 🗂️ Categorized questions and exercises for basic, intermediate, and advanced list operations.
@@ -41,7 +41,7 @@
 
 ---
 
-## Basic List Operations 🏗️
+## **Basic List Operations** 🏗️
 
 1. 🔢 **Create a List of Natural Numbers** - 📝 Generate a list of the first 10 natural numbers.
 2. 📥 **Access Specific Elements** - 🧲 Access the first, last, and middle elements using indexing.
@@ -56,7 +56,7 @@
 
 ---
 
-## Intermediate List Operations 🛠️
+## **Intermediate List Operations** 🛠️
 
 1. 🧮 **Generate Squares with List Comprehension** - 📏 Use Pythonic syntax for squares.
 2. 🔢 **Filter Even Numbers** - 🟢 Extract even numbers through conditional filtering.
@@ -71,7 +71,7 @@
 
 ---
 
-## Advanced List Operations 🚀
+## **Advanced List Operations** 🚀
 
 1. 🔢 **Generate Fibonacci Numbers** - 🔄 Create the first 10 Fibonacci numbers.
 2. 📄 **Split a List into Two Halves** - ✂️ Use slicing techniques to divide a list.
@@ -86,7 +86,7 @@
 
 ---
 
-## Additional Advanced Tasks 🚧
+## **Additional Advanced Tasks** 🚧
 
 1. 🌈 **Merge and Deduplicate Lists** - 🔄 Combine lists and remove duplicates.
 2. 📊 **Transpose a Matrix** - 🔃 Switch rows and columns using nested lists.
