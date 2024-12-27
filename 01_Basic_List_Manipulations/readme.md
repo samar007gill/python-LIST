@@ -1,13 +1,6 @@
 
-
 ---
-
-#### ***📚 Python Lists Guide 📚***
-
-
-
-
-
+## 📚 **__🔥🔥 PYTHON LISTS GUIDE 🔥🔥__** 📚
 
 ---
 
