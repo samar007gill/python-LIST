@@ -1,7 +1,6 @@
 
 
 ---
-#### 📚***__Python Lists Guide__***
 
 #### __**Python Lists Guide**__
 
